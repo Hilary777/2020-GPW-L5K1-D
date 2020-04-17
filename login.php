@@ -65,7 +65,7 @@ if (isset($error)) {
     font-family:  sans-serif;
     text-align:  center;
     color: purple;">
-   Chengdu traffic route management login system</h1></div>
+   Chengdu traffic management login system</h1></div>
 
     <form action="login.php" method="POST" style="margin-left:  auto;margin-right:  auto;padding-right:  15px;padding-left: 15PX;width: 50%;/* padding-top: 10%; */TEXT-ALIGN:  CENTER;     border-style: solid; background=
     padding-top: 5%;
