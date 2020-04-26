@@ -1,7 +1,8 @@
- <?php
+<?php
 
 // make db conection
 require('db.php');
+
 
 if (isset($_POST['submit'])) {
     if (empty($_POST['username']) || empty($_POST['password'])) {
@@ -12,46 +13,51 @@ if (isset($_POST['submit'])) {
         $password = $_POST['password'];
 
         // 2. Prepare query
-        $query  = "SELECT username, password "; 
-        $query .= "FROM Users ";
+        $query  = "SELECT username, password, level "; 
+        $query .= "FROM login ";
         $query .= "WHERE username = '$username' AND password = '$password' ";
 
+        // 2. Execute query
+        $result = mysqli_query($connection, $query);
 
-$result = mysqli_query($connection, $query);
-
-if (!$result) {
-    die("query is wrong");
-}
-
-        
-$row = mysqli_fetch_array($result);
-$numrows=mysqli_num_rows($result);
-if ($numrows == 1) {
-
-    session_start();
-    
-    $_SESSION['login_user'] = $username;
-    
-    
-
-    
-        if  ($_SESSION['login_level'] == 1) {
-                    header('location: homepage.php');
-                 else {
-                    header('location:loginfailed.php');
-            }
-    
-        } else {
-            header('location:loginfailed.php');
+        if (!$result) {
+            die("query is wrong");
         }
 
-mysqli_free_result($result);
+        // Save data to $row
+        $row = mysqli_fetch_array($result);
+        
+        // Check how many answers did we get
+        $numrows=mysqli_num_rows($result);
+        if ($numrows == 1) {
+            // Start to use sessions
+            session_start();
+            
+            // Create session variables
+            $_SESSION['login_user'] = $username;
+            $_SESSION['login_level'] = $row['level'];
+            
+            if ($_SESSION['login_level'] == 1) {
+                header('location: homepage.php');
+            } else if ($_SESSION['login_level'] == 2) {
+                header('location: depertment.php');
+            } else {
+                header('location: homepage.php');
+            }
+            
+        } else {
+            echo "Login failed";
+        }
+        
+        // 4. free results
+        mysqli_free_result($result);
     }
 }
 
+// 5. close db connection
 mysqli_close($connection);
-?>
 
+?>
 
 <?php
 
@@ -61,28 +67,28 @@ if (isset($error)) {
 }
 
 ?>
-<div><h1 style="
-    font-family:  sans-serif;
-    text-align:  center;
-    color: purple;">
-   Chengdu city traffic management login system</h1></div>
 
-    <form action="login.php" method="POST" style="margin-left:  auto;margin-right:  auto;padding-right:  15px;padding-left: 15PX;width: 50%;/* padding-top: 10%; */TEXT-ALIGN:  CENTER;     border-style: solid; background=
-    padding-top: 5%;
-    padding-bottom: 5%;
-        border-color: black;">
-    <label style="
-    text-align:  center;
-">Username:</label>
-    <input type="text" name="username" placeholder="username"> <br>
-    <label>Password:</label> 
-    <input type="password" name="password" placeholder="password"> <br>
-        <p>forget your password?</p>
-    <button input="" type="submit" name="submit" value="Login" style="
-    padding: 1px 15px;
-    border: 1px solid #FF4B2B;
-    BACKGROUND-COLOR: #FF2B2B;
-                                                                      MARGIN-TOP:  11PX;">Login</button>
-                                                                      
-
-
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>The Chengdu Bus Company</title>  
+     <body background="6666.jpg"></body>
+    <link rel="stylesheet" type="text/css" href="login.css"/>  
+</head>  
+<body>  
+    <div id="login"> 
+        <h1>The Chengdu Bus Company Login System</h1> 
+<form method="POST">
+    <input type="text" required="required" name="username" placeholder="username"> <br/>
+    <input type="password" required="required"name="password" placeholder="password"> <br/>
+    <button tyep="submit" name="submit" value="Login" style="
+padding:1px 10px;
+border: 1px solid #FF4B2B2B;
+Background-colcor:#FF4B2B2B;                                          
+MARG-TOP:11PX  :       "> Login                                           </button>
+    <button tyep="but" name="reset" value="Reset" style="
+padding:1px 10px;
+border: 1px solid #FF4B2B2B;
+Background-colcor:#FF4B2B2B;                                          
+MARG-TOP:11PX  :       "> Reset                                           </button>
+</form>
