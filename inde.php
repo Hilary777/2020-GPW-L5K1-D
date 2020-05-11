@@ -41,8 +41,8 @@
 			<!-- header-bot-->
 			<div class="col-md-4 logo_agile">
 				<h1>
-					<a href="in.php">
-						<span>G</span>rocery
+					<a href="inde.php">
+						<span>G</span>roceryin
 						<span>S</span>hoppy
 						<img src="images/logo2.png" alt=" ">
 					</a>
