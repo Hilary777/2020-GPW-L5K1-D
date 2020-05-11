@@ -169,8 +169,6 @@
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-			<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-			<li data-target="#myCarousel" data-slide-to="3" class=""></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
@@ -181,7 +179,6 @@
 						</h3>
 						<p>Get flat
 							<span>10%</span> Cashback</p>
-						<a class="button2" href="product.html">Shop Now </a>
 					</div>
 				</div>
 			</div>
@@ -193,36 +190,9 @@
 						</h3>
 						<p>Get Upto
 							<span>30%</span> Off</p>
-						<a class="button2" href="product.html">Shop Now </a>
 					</div>
 				</div>
 			</div>
-			<div class="item item3">
-				<div class="container">
-					<div class="carousel-caption">
-						<h3>Big
-							<span>Deal</span>
-						</h3>
-						<p>Get Best Offer Upto
-							<span>20%</span>
-						</p>
-						<a class="button2" href="product.html">Shop Now </a>
-					</div>
-				</div>
-			</div>
-			<div class="item item4">
-				<div class="container">
-					<div class="carousel-caption">
-						<h3>Today
-							<span>Discount</span>
-						</h3>
-						<p>Get Now
-							<span>40%</span> Discount</p>
-						<a class="button2" href="product.html">Shop Now </a>
-					</div>
-				</div>
-			</div>
-		</div>
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
@@ -249,35 +219,30 @@
 			<!-- product left -->
 			<div class="side-bar col-md-3">
 				<div class="search-hotel">
-					<h3 class="agileits-sear-head">Search Here..</h3>
+					<h3 class="agileits-sear-head">Chengdu Bus Company Online Grocery Store</h3>
 					<form action="#" method="post">
-						<input type="search" placeholder="Product name..." name="search" required="">
-						<input type="submit" value=" ">
+						<input type="search" placeholder="You are welcome to use it..." name="search" required="">
 					</form>
 				</div>
 				<!-- price range -->
 				<div class="range">
-					<h3 class="agileits-sear-head">Price range</h3>
-					<ul class="dropdown-menu6">
-						<li>
-
-							<div id="slider-range"></div>
-							<input type="text" id="amount" style="border: 0; color: #ffffff; font-weight: normal;" />
-						</li>
-					</ul>
+					<h3 class="agileits-sear-head">Service concept</h3>
+					<li>
+                   The taste will leave you wanting more
+							
 				</div>
 				<!-- //price range -->
 				<!-- food preference -->
 				<div class="left-side">
-					<h3 class="agileits-sear-head">Food Preference</h3>
+					<h3 class="agileits-sear-head">Pay Way</h3>
 					<ul>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">Vegetarian</span>
+							<span class="span">Wechat</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">Non-Vegetarian</span>
+							<span class="span">Alipay</span>
 						</li>
 					</ul>
 				</div>
@@ -372,47 +337,31 @@
 				<!-- //reviews -->
 				<!-- cuisine -->
 				<div class="left-side">
-					<h3 class="agileits-sear-head">Cuisine</h3>
+					<h3 class="agileits-sear-head">Item</h3>
 					<ul>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">South American</span>
+							<span class="span">Snacks</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">French</span>
+							<span class="span">Articles for daily use</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">Greek</span>
+							<span class="span">Skincare</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">Chinese</span>
+							<span class="span">Drinks</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">Japanese</span>
+							<span class="span">Food</span>
 						</li>
 						<li>
 							<input type="checkbox" class="checked">
-							<span class="span">Italian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Mexican</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Thai</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span">Indian</span>
-						</li>
-						<li>
-							<input type="checkbox" class="checked">
-							<span class="span"> Spanish </span>
+							<span class="span">Others</span>
 						</li>
 					</ul>
 				</div>
