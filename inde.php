@@ -32,6 +32,8 @@
 <body>
 	<!-- top-header -->
 	<div class="header-most-top">
+
+        <a href="in.php" class="nav-link">Home</a>
 		<p>Chengdu Bus Company Online Grocery Store</p>
 	</div>
 	<!-- //top-header -->
