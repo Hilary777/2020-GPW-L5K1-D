@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Adventure - Free Bootstrap 4 Template by Colorlib</title>
+    <title>ChengDu Bus Business</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -31,7 +31,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Adventure</a>
+	      <a class="navbar-brand" href="in.php">Adventure</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -54,12 +54,13 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="in.php">Home</a></span> <span>About</span></p>
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">About Us</h1>
           </div>
         </div>
       </div>
     </div>
+      
 
     <section class="ftco-section">
     	<div class="container">
@@ -132,7 +133,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     </section>
 		
 		<section class="ftco-about d-md-flex">
-    	<div class="one-half img" style="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/RoissyBusParis.JPG/1200px-RoissyBusParis.JPG;"></div>
+    	<div class="one-half img" style="background-image: url(images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
           <h2 class="mb-4">The Best Bus Campany</h2>
