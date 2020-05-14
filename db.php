@@ -2,9 +2,9 @@
 
 // 1. Open database connection
 $dbhost = "localhost";
-$dbuser = "pan-xue";
-$dbpass = "qqbbz200";
-$dbname = "2201713130229";
+$dbuser = "4eb07cbc4945";
+$dbpass = "d4b0398d0e07a9b8";
+$dbname = "l5k1d";
 
 $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
