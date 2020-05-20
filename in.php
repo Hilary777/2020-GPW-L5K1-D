@@ -31,7 +31,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="user.php">Adventure</a>
+	      <a class="navbar-brand" href="user.php">BUS</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -92,7 +92,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 
 		
 		<section class="ftco-about d-md-flex">
-    	<div class="one-half img" style="http://villanibus.com/images/associations/bus_row.jpg;"></div>
+        <div class="one-half img" style="background-image: url(images/about.jpg);"></div>
     	<div class="one-half ftco-animate">
         <div class="heading-section ftco-animate ">
           <h2 class="mb-4">The Best Bus Campany</h2>
@@ -166,7 +166,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
+		    						<h3><a href="#">The panda base</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -177,14 +177,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price">$200</span>
+	    							<span class="price">¥200</span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
+    						<p>Chengdu bus terminus - shiling overpass - donglin second road - panda base.</p>
+    						<p class="days"><span>It goes through four stations</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -200,7 +200,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
+		    						<h3><a href="#">Jinli</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -211,14 +211,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price">$200</span>
+	    							<span class="price">¥200</span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
+    						<p>Chengdu bus terminus - yulin road - second municipal hospital - gaoshengqiao - jinli.</p>
+    						<p class="days"><span>It goes through five stations</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -234,7 +234,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">Italy</a></h3>
+		    						<h3><a href="#">Dujiangyan</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -245,14 +245,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price">$200</span>
+	    							<span class="price">¥200</span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
+    						<p>Chengdu bus terminus - xi pu bus station - zhanqi village - lidui park - dujiangyan scenic area.</p>
+    						<p class="days"><span>It goes through five stations</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -268,7 +268,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">Paris, Italy</a></h3>
+		    						<h3><a href="#">Chunxi road</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -279,14 +279,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price">$200</span>
+	    							<span class="price">¥200</span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
-    						<p class="days"><span>2 days 3 nights</span></p>
+    						<p>Chengdu bus terminus - niuwangmiao - shamo street - chunxi road.</p>
+    						<p class="days"><span>It goes through four stations</span></p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
     							<span class="ml-auto"><a href="#">Discover</a></span>
     						</p>
     					</div>
@@ -360,7 +360,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">New Orleans, Hotel</a></h3>
+		    						<h3><a href="#">Shangri-la hotel</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -371,14 +371,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price per-price">$40<br><small>/night</small></span>
+	    							<span class="price per-price">¥240<br><small>/night</small></span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>9 binjiang east road, chengdu city</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -393,7 +393,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">New Orleans, Hotel</a></h3>
+		    						<h3><a href="#">Intercontinental hotel chengdu</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -404,14 +404,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price per-price">$40<br><small>/night</small></span>
+	    							<span class="price per-price">¥350<br><small>/night</small></span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>Chengdu global center</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    				
     						</p>
     					</div>
     				</div>
@@ -426,7 +426,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">New Orleans, Hotel</a></h3>
+		    						<h3><a href="#">Sheraton chengdu hotel</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -437,14 +437,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price per-price">$40<br><small>/night</small></span>
+	    							<span class="price per-price">¥350<br><small>/night</small></span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>Close to tianfu square</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -459,7 +459,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">New Orleans, Hotel</a></h3>
+		    						<h3><a href="#">Roland hotel chengdu</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -470,14 +470,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price per-price">$40<br><small>/night</small></span>
+	    							<span class="price per-price">¥520<br><small>/night</small></span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>It is located at 87 xuedao street</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -492,7 +492,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     					<div class="text p-3">
     						<div class="d-flex">
     							<div class="one">
-		    						<h3><a href="#">New Orleans, Hotel</a></h3>
+		    						<h3><a href="#">Niccolo Chengdu</a></h3>
 		    						<p class="rate">
 		    							<i class="icon-star"></i>
 		    							<i class="icon-star"></i>
@@ -503,14 +503,14 @@ Transfer query - provides the query starting point to the end of the bus scheme.
 		    						</p>
 	    						</div>
 	    						<div class="two">
-	    							<span class="price per-price">$40<br><small>/night</small></span>
+	    							<span class="price per-price">¥450<br><small>/night</small></span>
     							</div>
     						</div>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>Building 3, IFS, international financial center, no. 1, section 3, hongxing road, jinjiang district</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> Miami, Fl</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -538,9 +538,9 @@ Transfer query - provides the query starting point to the end of the bus scheme.
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="mb-5">30 seat and 34 seat buses.</p>
+                    <p class="name">Small</p>
+                    <span class="position">01</span>
                   </div>
                 </div>
               </div>
@@ -552,9 +552,9 @@ Transfer query - provides the query starting point to the end of the bus scheme.
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">Interface Designer</span>
+                    <p class="mb-5">Luxury bus 45 and 50 seats.</p>
+                    <p class="name">Luxury</p>
+                    <span class="position">02</span>
                   </div>
                 </div>
               </div>
@@ -566,9 +566,9 @@ Transfer query - provides the query starting point to the end of the bus scheme.
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">UI Designer</span>
+                    <p class="mb-5">A 30-seat bus service.</p>
+                    <p class="name">Medium</p>
+                    <span class="position">03</span>
                   </div>
                 </div>
               </div>
@@ -580,9 +580,9 @@ Transfer query - provides the query starting point to the end of the bus scheme.
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">Web Developer</span>
+                    <p class="mb-5">34 Seats Bus Transport.</p>
+                    <p class="name">Medium</p>
+                    <span class="position">04</span>
                   </div>
                 </div>
               </div>
@@ -594,9 +594,9 @@ Transfer query - provides the query starting point to the end of the bus scheme.
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">System Analyst</span>
+                    <p class="mb-5">15 seats Bus hi ace.</p>
+                    <p class="name">Medium</p>
+                    <span class="position">05</span>
                   </div>
                 </div>
               </div>
@@ -610,7 +610,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     	<div class="container">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4">Recommended Restaurants</h2>
+            <h2 class="mb-4">Recommended restaurants</h2>
           </div>
         </div>    		
     		<div class="row">
@@ -622,7 +622,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     						</div>
     					</a>
     					<div class="text p-3">
-    						<h3><a href="#">Luxury Restaurant</a></h3>
+    						<h3><a href="#">Banana leaf restaurant</a></h3>
     						<p class="rate">
     							<i class="icon-star"></i>
     							<i class="icon-star"></i>
@@ -631,11 +631,11 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     							<i class="icon-star-o"></i>
     							<span>8 Rating</span>
     						</p>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>Yulin south road</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Discover</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -648,7 +648,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     						</div>
     					</a>
     					<div class="text p-3">
-    						<h3><a href="#">Luxury Restaurant</a></h3>
+    						<h3><a href="#">Green tea restaurant</a></h3>
     						<p class="rate">
     							<i class="icon-star"></i>
     							<i class="icon-star"></i>
@@ -657,11 +657,11 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     							<i class="icon-star-o"></i>
     							<span>8 Rating</span>
     						</p>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>Chengdu taiguli</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -674,7 +674,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     						</div>
     					</a>
     					<div class="text p-3">
-    						<h3><a href="#">Luxury Restaurant</a></h3>
+    						<h3><a href="#">Wisteria garden restaurant</a></h3>
     						<p class="rate">
     							<i class="icon-star"></i>
     							<i class="icon-star"></i>
@@ -683,11 +683,11 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     							<i class="icon-star-o"></i>
     							<span>8 Rating</span>
     						</p>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>The south section of the first ring road</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>
@@ -700,7 +700,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     						</div>
     					</a>
     					<div class="text p-3">
-    						<h3><a href="#">Luxury Restaurant</a></h3>
+    						<h3><a href="#">Da rong he restaurant</a></h3>
     						<p class="rate">
     							<i class="icon-star"></i>
     							<i class="icon-star"></i>
@@ -709,11 +709,11 @@ Transfer query - provides the query starting point to the end of the bus scheme.
     							<i class="icon-star-o"></i>
     							<span>8 Rating</span>
     						</p>
-    						<p>Far far away, behind the word mountains, far from the countries</p>
+    						<p>No. 1 xiandong street</p>
     						<hr>
     						<p class="bottom-area d-flex">
-    							<span><i class="icon-map-o"></i> San Franciso, CA</span> 
-    							<span class="ml-auto"><a href="#">Book Now</a></span>
+    							<span><i class="icon-map-o"></i> Chengdu</span> 
+    							
     						</p>
     					</div>
     				</div>

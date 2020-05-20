@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ChengDu Bus Business</title>
+     <title>The Chengdu Bus Company</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -31,7 +31,7 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="in.php">Adventure</a>
+	      <a class="navbar-brand" href="index.html">BUS</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -54,13 +54,12 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-9 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="in.php">Home</a></span> <span>About</span></p>
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
             <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">About Us</h1>
           </div>
         </div>
       </div>
     </div>
-      
 
     <section class="ftco-section">
     	<div class="container">
@@ -139,7 +138,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
           <h2 class="mb-4">The Best Bus Campany</h2>
         </div>
         <div>
-  				<p>In recent years, chengdu bus company has strengthened its management and adopted a variety of measures to improve its ability of safe service, which has effectively guaranteed the smooth flow of public transportation and traffic arteries.Increase investment in science and technology, information means are widely used in public transport operation and dispatching, safe driving, service management and other fields, handheld public transport, electronic station board into operation, the full implementation of WeChat, alipay, unionpay flash payment and other mobile payment means;We have taken innovative management measures to promote the construction of star-level drivers, star-level stewards, star-level lines, star-level maintenance workers and star-level teams, and created service brands such as "li xiangbin hotline" and bus rapid transit line 1.</p>
+  				<p>In recent years, chengdu bus company has strengthened its management and adopted a variety of measures to improve its ability of safe service, which has effectively guaranteed the smooth flow of public transportation and traffic arteries.Increase investment in science and technology, information means are widely used in public transport operation and dispatching, safe driving, service management and other fields, handheld public transport, electronic station board into operation.</p>
   			</div>
     	</div>
     </section>
@@ -149,7 +148,7 @@ Transfer query - provides the query starting point to the end of the bus scheme.
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
             <h2 class="mb-4">Our satisfied customer says</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+            <p>Your service is very satisfactory to us.</p>
           </div>
         </div>
         <div class="row ftco-animate">
@@ -157,71 +156,71 @@ Transfer query - provides the query starting point to the end of the bus scheme.
             <div class="carousel-testimony owl-carousel ftco-owl">
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-5" style="background-image: https://bustransportcompany.com/wp-content/uploads/2019/11/bus-trips-Coach-bus-prices-300x225.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">Marketing Manager</span>
+                    <p class="mb-5">30 seat and 34 seat buses.</p>
+                    <p class="name">Small</p>
+                    <span class="position">01</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img mb-5" style="background-image: https://bustransportcompany.com/wp-content/uploads/2019/11/bus-rental-company-in-dubai-1-300x144.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">Interface Designer</span>
+                    <p class="mb-5">Luxury bus 45 and 50 seats.</p>
+                    <p class="name">Luxury</p>
+                    <span class="position">02</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img mb-5" style="background-image: https://bustransportcompany.com/wp-content/uploads/2019/11/Cheap-coach-300x225.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">UI Designer</span>
+                    <p class="mb-5">A 30-seat bus service.</p>
+                    <p class="name">Medium</p>
+                    <span class="position">03</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-5" style="background-image: https://bustransportcompany.com/wp-content/uploads/2019/12/Dubai-bus-rental-transport-company-300x225.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">Web Developer</span>
+                    <p class="mb-5">34 Seats Bus Transport.</p>
+                    <p class="name">Medium</p>
+                    <span class="position">04</span>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-5" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mb-5" style="background-image: https://bustransportcompany.com/wp-content/uploads/2019/11/bus-rental-hire-bus-in-dubai-300x225.jpeg)">
                     <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
                   </div>
                   <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Web</p>
-                    <span class="position">System Analyst</span>
+                    <p class="mb-5">15 seats Bus hi ace.</p>
+                    <p class="name">Medium</p>
+                    <span class="position">05</span>
                   </div>
                 </div>
               </div>
@@ -238,8 +237,8 @@ Transfer query - provides the query starting point to the end of the bus scheme.
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-yatch"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Special Activities</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">BUS TRANSPORT</h3>
+                <p>Stable development and rich experience.</p>
               </div>
             </div>      
           </div>
@@ -247,8 +246,8 @@ Transfer query - provides the query starting point to the end of the bus scheme.
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-around"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Travel Arrangements</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">BUSINESS HOURS</h3>
+                <p>Nine to eleven every day.</p>
               </div>
             </div>    
           </div>
@@ -256,8 +255,8 @@ Transfer query - provides the query starting point to the end of the bus scheme.
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-compass"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Private Guide</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">OUR APPROACH</h3>
+                <p>All bus services.</p>
               </div>
             </div>      
           </div>
@@ -265,8 +264,8 @@ Transfer query - provides the query starting point to the end of the bus scheme.
             <div class="media block-6 services d-block">
               <div class="icon"><span class="flaticon-map-of-roads"></span></div>
               <div class="media-body">
-                <h3 class="heading mb-3">Location Manager</h3>
-                <p>A small river named Duden flows by their place and supplies.</p>
+                <h3 class="heading mb-3">ADDRESS</h3>
+                <p>Erxianqiao street, chenghua district, chengdu city.</p>
               </div>
             </div>      
           </div>
