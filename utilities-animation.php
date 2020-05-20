@@ -3,8 +3,8 @@
 require('db.php');
 
 // 2. Do a query
-$query  = "SELECT id, staff_id, salary, deduct "; 
-$query .= "FROM Salary";
+$query  = "SELECT Salary.staff_id, Salary.salary, Salary.deduct, Staff.staff_name "; 
+$query .= "FROM Salary INNER JOIN Staff ON Salary.staff_id = Staff.id ";
 
 $result = mysqli_query($connection, $query);
 
@@ -24,7 +24,7 @@ if (!$result) {
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>CBC</title>
+  <title>Chengdu Bus Business Management System</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -44,11 +44,11 @@ if (!$result) {
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
         <div class="sidebar-brand-icon rotate-n-15">
           <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Hilary <sup>*</sup></div>
+        <div class="sidebar-brand-text mx-3">Manager <sup>*</sup></div>
         </a>
 
       <!-- Divider -->
@@ -56,7 +56,7 @@ if (!$result) {
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="index.php">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
@@ -69,22 +69,7 @@ if (!$result) {
         Interface
       </div>
 
-      <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Staff</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Components:</h6>
-            <a class="collapse-item" href="staffs.php">Staff Basic Information</a>
-            <a class="collapse-item" href="wage.php">Staff Wage Information</a>
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Utilities Collapse Menu -->
+ <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-fw fa-wrench"></i>
@@ -101,21 +86,26 @@ if (!$result) {
         </div>
       </li>
 
-      <!-- Divider -->
-      <hr class="sidebar-divider">
+   <!-- Heading -->
+         <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+          <i class="fas fa-fw fa-wrench"></i>
+          <span>Addons</span>
+        </a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="Income.php">Income</a>
+            <a class="collapse-item" href="Manager.php">Managers</a>
+            <a class="collapse-item" href="Ticket_price.php">Ticket list</a>
+            <a class="collapse-item" href="Ticket_list.php">Bus route</a>
+          </div>
+        </div>
+      
+        
 
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Addons
-      </div>
 
 
-      <!-- Nav Item - Tables -->
-      <li class="nav-item">
-        <a class="nav-link" href="tables.php">
-          <i class="fas fa-fw fa-table"></i>
-          <span>Salary information</span></a>
-      </li>
+
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
@@ -180,7 +170,7 @@ if (!$result) {
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hilary</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Manager</span>
                 <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
               </a>
               <!-- Dropdown - User Information -->
@@ -218,7 +208,7 @@ if (!$result) {
         <link type="text/css" rel="stylesheet" href="style.css">
     </head>
     <body bgcolor=" LightCyan">      
-        <h1 style="text-align:center">CBC</h1>
+        <h1 style="text-align:center">Chengdu Bus Business Management System</h1>
         <hr/>
         <div class="container-fluid">
 
@@ -231,8 +221,8 @@ if (!$result) {
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
-                <td>id</td>
-                <td>staff_id</td>
+                <td>Id</td>
+                <td>Staff_id</td>
                 <td>Salary</td>
                 <td>deduct</td>
             </thead>
@@ -252,12 +242,7 @@ while ($row = mysqli_fetch_array($result)) {
        
 ?>
     
-<a href="addstaffs.php">Add a new information!</a>
-  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          
+
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>

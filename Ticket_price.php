@@ -1,10 +1,14 @@
 <?php
 
+// 1. Open database connection
 require('db.php');
 
 // 2. Do a query
-$query  = "SELECT Book.booking_id, Book.route_id, Book.time, Book.number,User.user_name "; 
-$query .= "FROM Book INNER JOIN Bus_route ON Book.route_id=Bus_route.route_id INNER JOIN User ON User.user_id= Book.user_id ";
+$query  = "SELECT Ticket_price.ticket_pid, Ticket_price.route_id, Ticket_price.level, Ticket_price.capacity, Ticket_price.price, Ticket_price.type "; 
+$query .= "FROM Ticket_price ";
+$query .= "JOIN Bus_route ";
+$query .= "ON Ticket_price.route_id = Bus_route.route_id ";
+
 
 $result = mysqli_query($connection, $query);
 
@@ -214,6 +218,7 @@ if (!$result) {
         <hr/>
         <div class="container-fluid">
 
+         
           <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
@@ -222,31 +227,55 @@ if (!$result) {
                <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-            <thead>
-                <td>id</td>
-                <td>booking_id</td>
-                <td>route_id</td>
-                <td>user_name</td>
-                <td>time</td>
-                <td>number</td>
-            </thead>
+                    <thead>
+                      <td>ID</td>
+                      <td>Route</td>
+                      <td>Level</td>
+						<td>Capacity</td>
+						<td>Price</td>
+                      <td>Type</td>
+                      <td>Update</td>
+                <td>Delete</td>
+                        
+                      
+                  </thead>
+              
 
-<?php
-        
+
+
+
+
+
+
+   
+<?php    
+    
 // 3. use/show data
 while ($row = mysqli_fetch_array($result)) {
     echo "<tr>";
-    echo "<td>" , $row["id"] . "</td>";
-    echo "<td>" , $row["booking_id"] . "</td>";
-    echo "<td>" , $row["route_id"] . "</td>";
-    echo "<td>" , $row["user_name"] . "</td>";
-    echo "<td>" , $row["time"] . "</td>";
-    echo "<td>" , $row["number"] . "</td>";
+	echo "<td>" . $row["ticket_pid"] . "</td>";
+    echo "<td>" . $row["route_id"] . "</td>";
+	echo "<td>" . $row["level"] . "</td>";
+    echo "<td>" . $row["capacity"] . "</td>";
+	echo "<td>" . $row["price"] . "</td>";
+    echo "<td>" . $row["type"] . "</td>";
 
-   
-    
+
+
+echo "<td><a href='updateticketprice.php?id=" . $row["ticket_pid"] . "'>Update ticketprice</a></td>";
+
+echo "<td><a href='deleteticketprice.php?id=" . $row["ticket_pid"] . "'>Delete ticketprice</a></td>";
+    echo "</tr>";
+
 }
-       
+                    
+?>
+   
+       </table>
+      <br/>
+         <a href ="addticketprice.php"><p align="center">Add a new ticket</p></a>
+<br/>              
+                  
 ?>
 
   <!-- Bootstrap core JavaScript-->
@@ -265,5 +294,3 @@ while ($row = mysqli_fetch_array($result)) {
 
   <!-- Page level custom scripts -->
   <script src="js/demo/datatables-demo.js"></script>
-
-

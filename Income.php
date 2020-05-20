@@ -1,10 +1,12 @@
 <?php
 
+// 1. Open database connection
 require('db.php');
 
 // 2. Do a query
-$query  = "SELECT Book.booking_id, Book.route_id, Book.time, Book.number,User.user_name "; 
-$query .= "FROM Book INNER JOIN Bus_route ON Book.route_id=Bus_route.route_id INNER JOIN User ON User.user_id= Book.user_id ";
+$query  = "SELECT income_id, time, route, number "; 
+$query .= "FROM Income ";
+
 
 $result = mysqli_query($connection, $query);
 
@@ -214,39 +216,63 @@ if (!$result) {
         <hr/>
         <div class="container-fluid">
 
+
+         
           <!-- DataTales Example -->
-          <div class="card shadow mb-4">
+         <div class="card shadow mb-4">
             <div class="card-header py-3">
             <div class="card-body">
               <div class="table-responsive">
                <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-            <thead>
-                <td>id</td>
-                <td>booking_id</td>
-                <td>route_id</td>
-                <td>user_name</td>
-                <td>time</td>
-                <td>number</td>
-            </thead>
+				   <thead>
+              
+				  
+				  
+                      <td>ID</td>
+                      <td>Time</td>
+                      <td>Route</td>
+						<td>Number</td>
+                       <td>Update</td>
+                <td>Delete</td>
+                        
+                  </thead>
+              
 
-<?php
-        
+
+
+
+
+
+
+   
+<?php    
+    
 // 3. use/show data
 while ($row = mysqli_fetch_array($result)) {
     echo "<tr>";
-    echo "<td>" , $row["id"] . "</td>";
-    echo "<td>" , $row["booking_id"] . "</td>";
-    echo "<td>" , $row["route_id"] . "</td>";
-    echo "<td>" , $row["user_name"] . "</td>";
-    echo "<td>" , $row["time"] . "</td>";
-    echo "<td>" , $row["number"] . "</td>";
+	echo "<td>" . $row["income_id"] . "</td>";
+    echo "<td>" . $row["time"] . "</td>";
+	echo "<td>" . $row["route"] . "</td>";
+    echo "<td>" . $row["number"] . "</td>";
+	
 
-   
-    
+
+
+echo "<td><a href='updateincome.php?id=" . $row["income_id"] . "'>Update income</a></td>";
+
+echo "<td><a href='deleteincome.php?id=" . $row["income_id"] . "'>Delete income</a></td>";
+    echo "</tr>";
 }
-       
+                    
+?>
+   
+       </table>
+      <br/>
+         <a href ="addincome.php"><p align="center">Add a new income</p></a>
+<br/>              
+                  
 ?>
 
   <!-- Bootstrap core JavaScript-->
@@ -265,5 +291,3 @@ while ($row = mysqli_fetch_array($result)) {
 
   <!-- Page level custom scripts -->
   <script src="js/demo/datatables-demo.js"></script>
-
-
