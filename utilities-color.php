@@ -223,12 +223,12 @@ if (!$result) {
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
             <thead>
-                <td>id</td>
-                <td>booking_id</td>
-                <td>route_id</td>
-                <td>user_name</td>
-                <td>time</td>
-                <td>number</td>
+                <td>ID</td>
+                <td>Booking_id</td>
+                <td>Route_id</td>
+                <td>User_name</td>
+                <td>Time</td>
+                <td>Number</td>
             </thead>
 
 <?php

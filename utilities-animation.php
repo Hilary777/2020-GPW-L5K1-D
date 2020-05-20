@@ -221,10 +221,10 @@ if (!$result) {
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
-                <td>Id</td>
+                <td>ID</td>
                 <td>Staff_id</td>
                 <td>Salary</td>
-                <td>deduct</td>
+                <td>Deduct</td>
             </thead>
 
 <?php
