@@ -160,7 +160,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												</ul>
 												<div class="clearfix"> </div>
 											</div>
-							<span class="ml-auto"><a href="payment.html">Submit </a></span>
+							<span class="ml-auto"><a href="payment.html">Submit And Pay </a></span>
                                 
                                 
 						
