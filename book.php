@@ -160,12 +160,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												</ul>
 												<div class="clearfix"> </div>
 											</div>
-								<input type="submit" value="Order Now">
+							<span class="ml-auto"><a href="payment.html">Submit </a></span>
                                 
-                                <div class="wthree-text"> <a href="payment.html">Payment Way </a>
-				
-						</div>
-
+                                
+						
 		</div>
    </div>
   
