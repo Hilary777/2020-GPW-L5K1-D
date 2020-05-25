@@ -213,7 +213,7 @@
     	<div class="container">
 				<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
-            <h2 class="mb-4"><strong>The second menu</strong> Hotels</h2>
+            <h2 class="mb-4"><strong>The Second Menu</strong> </h2>
           </div>
         </div>    		
     	</div>

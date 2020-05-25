@@ -103,7 +103,7 @@
                             </div>
                             <div class="tlinks">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="40000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="25000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -185,7 +185,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="20000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="18000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -267,7 +267,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="15000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -308,7 +308,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="10000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -349,7 +349,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="5000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -399,7 +399,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="18000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -440,7 +440,7 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                            	<div class="ticketBox" data-ticket-price="15000">
+                            	<div class="ticketBox" data-ticket-price="25/95">
                                 	<div class="inactiveStatus"></div>
                                     
                                     <div class="row">
@@ -560,8 +560,7 @@
                      <input type="text" class="form-control" placeholder="Enter your Mobile No.">
                   </div>
                   
-        		  <a type="submit" class="btn">Confirm the information</a>
-                  <a href="ind1.html">Choose the seat </a>
+                  <a href="ind1.html"class="btn">Confirm the informationt </a>
                 </form>
             </div>
         
